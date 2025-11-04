@@ -1,0 +1,176 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.auto-driving.org/ont/masterboard#"
+     xml:base="http://www.auto-driving.org/ont/masterboard"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:swrla="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#">
+    <owl:Ontology rdf:about="http://www.auto-driving.org/ont/masterboard#"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.auto-driving.org/ont/masterboard#approaches -->
+
+    <owl:ObjectProperty rdf:about="http://www.auto-driving.org/ont/masterboard#approaches"/>
+    
+
+
+    <!-- http://www.auto-driving.org/ont/masterboard#faces -->
+
+    <owl:ObjectProperty rdf:about="http://www.auto-driving.org/ont/masterboard#faces"/>
+    
+
+
+    <!-- http://www.auto-driving.org/ont/masterboard#hasDirection -->
+
+    <owl:ObjectProperty rdf:about="http://www.auto-driving.org/ont/masterboard#hasDirection"/>
+    
+
+
+    <!-- http://www.auto-driving.org/ont/masterboard#hasLeftSide -->
+
+    <owl:ObjectProperty rdf:about="http://www.auto-driving.org/ont/masterboard#hasLeftSide"/>
+    
+
+
+    <!-- http://www.auto-driving.org/ont/masterboard#hasMovement -->
+
+    <owl:ObjectProperty rdf:about="http://www.auto-driving.org/ont/masterboard#hasMovement"/>
+    
+
+
+    <!-- http://www.auto-driving.org/ont/masterboard#hasPosition -->
+
+    <owl:ObjectProperty rdf:about="http://www.auto-driving.org/ont/masterboard#hasPosition"/>
+    
+
+
+    <!-- http://www.auto-driving.org/ont/masterboard#hasPriorityOver -->
+
+    <owl:ObjectProperty rdf:about="http://www.auto-driving.org/ont/masterboard#hasPriorityOver"/>
+    
+
+
+    <!-- http://www.auto-driving.org/ont/masterboard#hasRightSide -->
+
+    <owl:ObjectProperty rdf:about="http://www.auto-driving.org/ont/masterboard#hasRightSide"/>
+    
+
+
+    <!-- http://www.auto-driving.org/ont/masterboard#hasSignal -->
+
+    <owl:ObjectProperty rdf:about="http://www.auto-driving.org/ont/masterboard#hasSignal"/>
+    
+
+
+    <!-- http://www.auto-driving.org/ont/masterboard#isBehind -->
+
+    <owl:ObjectProperty rdf:about="http://www.auto-driving.org/ont/masterboard#isBehind"/>
+    
+
+
+    <!-- http://www.auto-driving.org/ont/masterboard#isInFrontOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.auto-driving.org/ont/masterboard#isInFrontOf"/>
+    
+
+
+    <!-- http://www.auto-driving.org/ont/masterboard#isOnLeftOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.auto-driving.org/ont/masterboard#isOnLeftOf"/>
+    
+
+
+    <!-- http://www.auto-driving.org/ont/masterboard#isOnRightOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.auto-driving.org/ont/masterboard#isOnRightOf"/>
+    
+
+
+    <!-- http://www.auto-driving.org/ont/masterboard#leaves -->
+
+    <owl:ObjectProperty rdf:about="http://www.auto-driving.org/ont/masterboard#leaves"/>
+    
+
+
+    <!-- http://www.auto-driving.org/ont/masterboard#occupies -->
+
+    <owl:ObjectProperty rdf:about="http://www.auto-driving.org/ont/masterboard#occupies"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.auto-driving.org/ont/masterboard#Direction -->
+
+    <owl:Class rdf:about="http://www.auto-driving.org/ont/masterboard#Direction"/>
+    
+
+
+    <!-- http://www.auto-driving.org/ont/masterboard#Intersection -->
+
+    <owl:Class rdf:about="http://www.auto-driving.org/ont/masterboard#Intersection"/>
+    
+
+
+    <!-- http://www.auto-driving.org/ont/masterboard#Lane -->
+
+    <owl:Class rdf:about="http://www.auto-driving.org/ont/masterboard#Lane"/>
+    
+
+
+    <!-- http://www.auto-driving.org/ont/masterboard#Movement -->
+
+    <owl:Class rdf:about="http://www.auto-driving.org/ont/masterboard#Movement"/>
+    
+
+
+    <!-- http://www.auto-driving.org/ont/masterboard#RightOfWayRule -->
+
+    <owl:Class rdf:about="http://www.auto-driving.org/ont/masterboard#RightOfWayRule"/>
+    
+
+
+    <!-- http://www.auto-driving.org/ont/masterboard#TrafficLight -->
+
+    <owl:Class rdf:about="http://www.auto-driving.org/ont/masterboard#TrafficLight"/>
+    
+
+
+    <!-- http://www.auto-driving.org/ont/masterboard#TrafficSign -->
+
+    <owl:Class rdf:about="http://www.auto-driving.org/ont/masterboard#TrafficSign"/>
+    
+
+
+    <!-- http://www.auto-driving.org/ont/masterboard#Vehicle -->
+
+    <owl:Class rdf:about="http://www.auto-driving.org/ont/masterboard#Vehicle"/>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+

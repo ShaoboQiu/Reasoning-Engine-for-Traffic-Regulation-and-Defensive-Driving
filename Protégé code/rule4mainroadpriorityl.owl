@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+   xmlns:swrl="http://www.w3.org/2003/11/swrl#"
+>
+  <rdf:Description rdf:nodeID="N5dcc90c0561c48d885ffead448769a13">
+    <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
+    <swrl:propertyPredicate rdf:resource="http://www.auto-driving.org/ont/masterboard#hasRoadPriorityLevel"/>
+    <swrl:argument1 rdf:resource="urn:swrl:var#x"/>
+    <swrl:argument2 rdf:resource="urn:swrl:var#p1"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N2411f6dc57654eafb3d4b533a936578f">
+    <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#BuiltinAtom"/>
+    <swrl:builtin rdf:resource="http://www.w3.org/2003/11/swrlb#greaterThan"/>
+    <swrl:arguments rdf:nodeID="N7e76bd3722b54ae8b3b0ebe6d2050afb"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nd9851d50c2824a4c89ba0c9e7ab76c4e">
+    <rdf:first rdf:nodeID="N5dcc90c0561c48d885ffead448769a13"/>
+    <rdf:rest rdf:nodeID="N98dc6cd11ea5422eb0f2c22a5b3b1f6f"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nb0a8c594b05e412085ba1f12e12907d7">
+    <rdf:first rdf:nodeID="N2411f6dc57654eafb3d4b533a936578f"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N7e76bd3722b54ae8b3b0ebe6d2050afb">
+    <rdf:first rdf:resource="urn:swrl:var#p1"/>
+    <rdf:rest rdf:nodeID="N513c43de273e4fa9bbef47307c095ddf"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N513c43de273e4fa9bbef47307c095ddf">
+    <rdf:first rdf:resource="urn:swrl:var#p2"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N287cebb67ec44b6491f0a16f59af6dcd">
+    <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+    <swrl:classPredicate rdf:resource="http://www.auto-driving.org/ont/masterboard#Vehicle"/>
+    <swrl:argument1 rdf:resource="urn:swrl:var#y"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.auto-driving.org/ont/masterboard#hasPriorityOver">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N8d1d267d846b4e1cb65727a2c6ab0bbd">
+    <rdf:first rdf:nodeID="Ne05369c8d4f348d19ba3c366290d5e1d"/>
+    <rdf:rest rdf:nodeID="N41bca357c1e149a988b1d071f14e3432"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nb7ef34b7c1ae43fb933a6ecc4428bded">
+    <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
+    <swrl:propertyPredicate rdf:resource="http://www.auto-driving.org/ont/masterboard#hasRoadPriorityLevel"/>
+    <swrl:argument1 rdf:resource="urn:swrl:var#y"/>
+    <swrl:argument2 rdf:resource="urn:swrl:var#p2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:swrl:var#p2">
+    <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Ncdd0ced27a574ea89c3155e3a894af83">
+    <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+    <rdfs:label>S4</rdfs:label>
+    <swrl:body rdf:nodeID="N8d1d267d846b4e1cb65727a2c6ab0bbd"/>
+    <swrl:head rdf:nodeID="N31e6cc10b361451b91ea6b8097d4e27d"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N31e6cc10b361451b91ea6b8097d4e27d">
+    <rdf:first rdf:nodeID="N0e102880b6da4603bf1e99bc7ebdeac0"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N98dc6cd11ea5422eb0f2c22a5b3b1f6f">
+    <rdf:first rdf:nodeID="Nb7ef34b7c1ae43fb933a6ecc4428bded"/>
+    <rdf:rest rdf:nodeID="Nb0a8c594b05e412085ba1f12e12907d7"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Ne05369c8d4f348d19ba3c366290d5e1d">
+    <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+    <swrl:classPredicate rdf:resource="http://www.auto-driving.org/ont/masterboard#Vehicle"/>
+    <swrl:argument1 rdf:resource="urn:swrl:var#x"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.auto-driving.org/ont/masterboard#hasRoadPriorityLevel">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:swrl:var#y">
+    <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:swrl:var#p1">
+    <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N0e102880b6da4603bf1e99bc7ebdeac0">
+    <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+    <swrl:propertyPredicate rdf:resource="http://www.auto-driving.org/ont/masterboard#hasPriorityOver"/>
+    <swrl:argument1 rdf:resource="urn:swrl:var#x"/>
+    <swrl:argument2 rdf:resource="urn:swrl:var#y"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:swrl:var#x">
+    <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.auto-driving.org/ont/masterboard#Vehicle">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N41bca357c1e149a988b1d071f14e3432">
+    <rdf:first rdf:nodeID="N287cebb67ec44b6491f0a16f59af6dcd"/>
+    <rdf:rest rdf:nodeID="Nd9851d50c2824a4c89ba0c9e7ab76c4e"/>
+  </rdf:Description>
+</rdf:RDF>
